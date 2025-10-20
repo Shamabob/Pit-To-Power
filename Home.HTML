@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pit to Power: Date Pit Biofuel Investigation</title>
+    <!-- Load Tailwind CSS for utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Lucide Icons for non-SDG icons -->
+    <script src="https://unpkg.com/lucide@0.366.0/dist/umd/lucide.min.js"></script>
+    <!-- Link to external CSS file (styles.css) -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="antialiased">
+
+    <!-- Navigation Header -->
+    <header class="header-bg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-full">
+                <a href="Home.HTML" class="text-2xl font-extrabold tracking-tight text-white flex items-center h-full">
+                    <img src="Pit-to-Power.png" alt="Pit to Power Logo" class="w-10 h-10 mr-2 object-contain">
+                    Pit to Power
+                </a>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-6">
+                        <li><a href="Home.HTML" class="nav-link text-gray-300 hover:text-orange-600 transition duration-150 font-medium">Home</a></li>
+                        <li><a href="About-Us.html" class="nav-link text-gray-300 hover:text-orange-600 transition duration-150 font-medium">About</a></li>
+                        <li><a href="Contact.html" class="nav-link text-gray-300 hover:text-orange-600 transition duration-150 font-medium">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
+
+        <!-- 1. HERO SECTION -->
+        <section id="home" class="text-center py-16 bg-white rounded-xl shadow-lg mb-12">
+            
+            <div class="inline-block mb-6 shadow-xl">
+                <img src="Pit-to-Power.png" alt="Pit to Power Logo" class="w-32 h-32 object-contain">
+            </div>
+
+            <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-2">
+                An Investigation into <span class="text-orange-600">Date Pit Oil's Efficiency</span> as a Biofuel
+            </h2>
+            <h3 class="text-2xl font-semibold text-gray-700 mb-8">
+                FUELING THE FUTURE, ONE PIT AT A TIME.
+            </h3>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                Addressing global warming and waste management by providing a <span class="font-bold">sustainable and renewable fuel source</span> against non-renewable fossil fuels.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#findings" class="px-6 py-3 bg-orange-600 text-white font-semibold rounded-full shadow-lg hover:bg-orange-700 transition duration-300">
+                    View Key Findings
+                </a>
+                <a href="#impact" class="px-6 py-3 bg-gray-200 text-gray-800 font-semibold rounded-full hover:bg-gray-300 transition duration-300">
+                    Sustainability Goals
+                </a>
+            </div>
+        </section>
+
+        <!-- 2. SUMMARY OF FINDINGS -->
+        <section id="findings" class="py-12">
+            <h2 class="text-3xl font-bold text-center mb-10">Our Key Finding: Date Pit Oil Outperforms Kerosene</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1: Fossil Fuel Dilemma - ACCENT COLOR: RED -->
+                <div class="card bg-white p-6 rounded-xl shadow-lg border-l-4 border-red-500">
+                    <i data-lucide="flame" class="w-8 h-8 text-red-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">The Fossil Fuel Dilemma</h3>
+                    <p class="text-gray-600">Extensive reliance on crude oil leads to high greenhouse gas emissions like CO<sub>2</sub> and the depletion of main fuel sources, contributing significantly to climate change.</p>
+                </div>
+                <!-- Card 2: Sustainable Alternative - ACCENT COLOR: EMERALD (Secondary Color) -->
+                <div class="card bg-white p-6 rounded-xl shadow-lg border-l-4 border-emerald-600">
+                    <i data-lucide="recycle" class="w-8 h-8 text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Sustainable Alternative</h3>
+                    <p class="text-gray-600">We utilize <span class="font-bold">date pits</span> a major form of food waste in the UAE to extract a clean biofuel, solving both the energy crisis and the waste disposal problem.</p>
+                </div>
+                <!-- Card 3: Superior Efficiency - ACCENT COLOR: ORANGE (Primary Color) -->
+                <div class="card bg-white p-6 rounded-xl shadow-lg border-l-4 border-orange-600">
+                    <i data-lucide="thermometer" class="w-8 h-8 text-yellow-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-2">Superior Efficiency</h3>
+                    <p class="text-gray-600 font-medium">Calorimetry showed <span class="font-bold">Date Pit Oil</span> consistently produced a <span class="font-bold">greater rise in water temperature</span> than Kerosene, demonstrating higher energy efficiency per gram.</p>
+                </div>
+            </div>
+
+            <!-- Detailed Data Table -->
+            <div class="mt-12 bg-white p-8 rounded-xl shadow-lg overflow-x-auto">
+                <h3 class="text-2xl font-semibold mb-6">Observation Table: Calorimetry Results 15 min Burn Time</h3>
+                <table class="w-full data-table text-left border-collapse">
+                    <thead class="bg-gray-50">
+                        <tr class="text-sm font-medium text-gray-700 uppercase tracking-wider">
+                            <th>Fuel</th>
+                            <th>Initial Mass g</th>
+                            <th>Mass Used g</th>
+                            <th>Initial Temp. &deg;C</th>
+                            <th>Final Temp. &deg;C</th>
+                            <th>Temp. Difference &Delta;T &deg;C</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="hover:bg-green-50/50">
+                            <td rowspan="3" class="font-bold text-green-700">Date Pit Oil</td>
+                            <td rowspan="3">66.99</td>
+                            <td rowspan="3">35.19</td>
+                            <td>25 T1</td>
+                            <td>45 T1</td>
+                            <td class="font-extrabold text-lg text-orange-600">20</td>
+                        </tr>
+                        <tr class="hover:bg-green-50/50">
+                            <td>30 T2</td>
+                            <td>53 T2</td>
+                            <td class="font-extrabold text-lg text-orange-600">23</td>
+                        </tr>
+                        <tr class="hover:bg-green-50/50">
+                            <td>35 T3</td>
+                            <td>61 T3</td>
+                            <td class="font-extrabold text-lg text-orange-600">26</td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-red-50/50">
+                            <td rowspan="3" class="font-bold text-red-700">Kerosene</td>
+                            <td rowspan="3">66.99</td>
+                            <td rowspan="3">38.29</td>
+                            <td>25 T1</td>
+                            <td>38 T1</td>
+                            <td class="font-extrabold text-lg text-gray-800">13</td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-red-50/50">
+                            <td>30 T2</td>
+                            <td>45 T2</td>
+                            <td class="font-extrabold text-lg text-gray-800">15</td>
+                        </tr>
+                        <tr class="bg-gray-100 hover:bg-red-50/50">
+                            <td>35 T3</td>
+                            <td>52 T3</td>
+                            <td class="font-extrabold text-lg text-gray-800">17</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="mt-4 text-sm text-gray-500 italic">Conclusion: A lower mass of Date Pit Oil 35.19g resulted in a greater average temperature rise compared to a higher mass of Kerosene 38.29g.</p>
+            </div>
+        </section>
+
+        <!-- 3. METHODOLOGY -->
+        <section id="methodology" class="py-12">
+            <h2 class="text-3xl font-bold text-center mb-10">The Investigation Methodology</h2>
+            <div class="space-y-10">
+                
+                <!-- Step 1: Obtaining Date Powder -->
+                <div class="bg-orange-50 border-l-4 border-orange-600 p-6 rounded-xl shadow-lg md:flex items-start">
+                    <div class="md:w-1/3 flex-shrink-0 mb-4 md:mb-0 md:pr-6">
+                        <i data-lucide="hammer" class="w-8 h-8 text-orange-600 mb-2"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">1. Obtaining Date Powder</h3>
+                    </div>
+                    <div class="md:w-2/3">
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 pt-1 mb-4">
+                            <li>Date pits collected from local mosques Ramadan waste.</li>
+                            <li>Washed, dried 4-5 days, and <span class="font-bold">roasted</span> until charred dark brown.</li>
+                            <li>Crushed using a mortar and pestle, then finely ground using a <span class="font-bold">spice grinder</span> and passed through a sieve.</li>
+                        </ul>
+                        <!-- LAB IMAGES ADDED -->
+                        <div class="flex flex-wrap gap-4 justify-start">
+                            <img src="Date-Roast.png" alt="Date pits being roasted in a pan." class="w-32 h-32 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                            <img src="Date-crush.png" alt="Date pits ground into coarse powder in a grinder." class="w-32 h-32 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                            <img src="Date-powder.png" alt="Fine date pit powder ready for mixing." class="w-32 h-32 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 2: Solvent Oil Extraction -->
+                <div class="bg-emerald-50 border-l-4 border-emerald-600 p-6 rounded-xl shadow-lg md:flex items-start">
+                    <div class="md:w-1/3 flex-shrink-0 mb-4 md:mb-0 md:pr-6">
+                        <i data-lucide="flask-conical" class="w-8 h-8 text-emerald-600 mb-2"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">2. Solvent Oil Extraction</h3>
+                    </div>
+                    <div class="md:w-2/3">
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 pt-1 mb-4">
+                            <li>Measured date powder added in excess to 200 ml of <span class="font-bold">Ethanol</span>.</li>
+                            <li>Mixture filtered to obtain the oil/solvent solution filtrate.</li>
+                            <li>Filtrate heated in a <span class="font-bold">water bath at 78 &deg;C</span> to evaporate the ethanol and isolate the pure date pit oil.</li>
+                        </ul>
+                        <!-- LAB IMAGES ADDED -->
+                        <div class="flex flex-wrap gap-4 justify-start">
+                            <img src="Date-weighing.png" alt="Weighing date powder on a digital scale." class="w-32 h-32 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                            <img src="Date-mixing.png" alt="Mixing date powder with ethanol in a beaker." class="w-32 h-32 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                            <img src="Date-filtering.png" alt="Filtering the ethanol mixture using filter paper." class="w-32 h-32 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step 3: Biofuel Efficiency Test -->
+                <div class="bg-gray-100 border-l-4 border-gray-600 p-6 rounded-xl shadow-lg md:flex items-start">
+                    <div class="md:w-1/3 flex-shrink-0 mb-4 md:mb-0 md:pr-6">
+                        <i data-lucide="scale" class="w-8 h-8 text-gray-600 mb-2"></i>
+                        <h3 class="text-xl font-semibold text-gray-800">3. Biofuel Efficiency Test</h3>
+                    </div>
+                    <div class="md:w-2/3">
+                        <ul class="list-disc list-inside space-y-2 text-gray-700 pt-1 mb-4">
+                            <li>100ml of Date Oil and 100ml of Kerosene added to separate spirit lamps.</li>
+                            <li>Each lamp placed under a beaker containing 100ml of water, all starting at the same temperature.</li>
+                            <li>Flames ignited simultaneously for <span class="font-bold">15 minutes</span>.</li>
+                            <li>Final water temperatures and total fuel mass consumed were recorded.</li>
+                        </ul>
+                        <!-- LAB IMAGES RESIZED -->
+                        <div class="flex flex-wrap gap-4 justify-start">
+                            <img src="Calorimetry-1.png" alt="Calorimetry setup with two burners and thermometers at start." class="w-32 h-40 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                            <img src="Calorimetry-2.png" alt="Calorimetry setup showing temperature readings during burn test." class="w-32 h-40 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                            <img src="Lamp-weigh.png" alt="Spirit lamp being weighed on a scale." class="w-32 h-40 object-cover rounded-md shadow-md" onerror="this.style.display='none'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SUSTAINABILITY AND IMPACT -->
+        <section id="impact" class="py-12">
+            <h2 class="text-3xl font-bold text-center mb-10">Global Impact & UN Sustainable Development Goals SDGs</h2>
+            <p class="text-center text-lg text-gray-600 mb-8 max-w-4xl mx-auto">
+                Utilizing date pits for fuel not only reduces waste but also provides a stable source of profit, aligning with critical global sustainability targets.
+            </p>
+
+            <!-- Grid container for the first row (3 cards) -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+                <div class="bg-yellow-100 p-5 rounded-lg border border-yellow-300">
+                    <div class="flex items-center mb-2">
+                        <img src="SDG7.png" alt="SDG 7 Icon" class="w-8 h-8 mr-3 object-contain">
+                        <h3 class="font-bold text-lg text-gray-800">SDG 7: Affordable and Clean Energy</h3>
+                    </div>
+                    <p class="text-sm text-gray-700">Utilizing date pits for fuel not only reduces waste but also provides a stable source of profit, aligning with critical global sustainability targets.</p>
+                </div>
+
+                <div class="bg-amber-100 p-5 rounded-lg border border-amber-300">
+                    <div class="flex items-center mb-2">
+                        <img src="SDG12.png" alt="SDG 12 Icon" class="w-8 h-8 mr-3 object-contain">
+                        <h3 class="font-bold text-lg text-gray-800">SDG 12: Responsible Consumption</h3>
+                    </div>
+                    <p class="text-sm text-gray-700">The project fulfills responsible consumption by repurposing a resource date pits that would otherwise be disposed of, reducing waste and pollution.</p>
+                </div>
+
+                <div class="bg-green-100 p-5 rounded-lg border border-green-300">
+                    <div class="flex items-center mb-2">
+                        <img src="SDG13.png" alt="SDG 13 Icon" class="w-8 h-8 mr-3 object-contain">
+                        <h3 class="font-bold text-lg text-gray-800">SDG 13: Climate Action</h3>
+                    </div>
+                    <p class="text-sm text-gray-700 mt-1">Biofuels significantly reduce toxic emissions and greenhouse gases compared to crude oil, contributing directly to the reinforcement of the planet's atmospheric health.</p>
+                </div>
+            </div>
+
+            <!-- FLEX CONTAINER ADDED: Centers the last two cards on large screens for symmetry -->
+            <div class="flex justify-center flex-wrap gap-6">
+
+                <div class="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-12px)] bg-orange-100 p-5 rounded-lg border border-orange-300">
+                    <div class="flex items-center mb-2">
+                        <img src="SDG9.png" alt="SDG 9 Icon" class="w-8 h-8 mr-3 object-contain">
+                        <h3 class="font-bold text-lg text-gray-800">SDG 9: Industry & Innovation</h3>
+                    </div>
+                    <p class="text-sm text-gray-700">The novelty of this concept serves as a pioneering step towards using sustainable fuel in industrial machinery and infrastructure, fostering innovation.</p>
+                </div>
+                
+                <div class="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-12px)] bg-amber-100 p-5 rounded-lg border border-amber-300">
+                    <div class="flex items-center mb-2">
+                        <img src="SDG11.png" alt="SDG 11 Icon" class="w-8 h-8 mr-3 object-contain">
+                        <h3 class="font-bold text-lg text-gray-800">SDG 11: Sustainable Cities</h3>
+                    </div>
+                    <p class="text-sm text-gray-700">Providing a cost-effective, sustainable method to power homes gives it the capability to empower entire communities and cities towards a zero-waste standard.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. CONTACT SECTION -->
+        <section id="contact" class="text-center py-10 bg-white rounded-xl shadow-lg mx-auto max-w-xl border border-gray-200">
+            <!-- Icon Added -->
+            <div class="flex justify-center mb-4">
+                 <i data-lucide="send-horizontal" class="w-12 h-12 text-gray-600"></i>
+            </div>
+            
+            <h2 class="text-3xl font-bold mb-2 text-gray-800">Get in Touch</h2>
+            <p class="text-lg text-gray-600 mb-8">Interested in our research or collaboration opportunities?</p>
+            
+            <!-- GREEN BUTTON: Using secondary color (emerald) for background, white text -->
+            <a href="mailto:Phoenixoasispps@gmail.com" class="inline-flex items-center px-8 py-3 border border-transparent bg-emerald-500 text-base font-semibold rounded-full shadow-lg text-white transition duration-300 hover:bg-emerald-600 transform hover:scale-[1.02]">
+                <i data-lucide="mail" class="w-5 h-5 mr-2 text-white"></i>
+                Email Us Directly
+            </a>
+            
+            <p class="mt-4 text-sm text-gray-500">Phoenixoasispps@gmail.com</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p style="font-weight: bold;">&copy; 2025 Pit to Power & Phoenix Oasis. All Rights Reserved.</p> 
+        <p class="footer-project-info">Project by Yousof, Walid, Samit Angelique, Areeba & Joud.</p>
+    </footer>
+
+    <!-- Initialize Lucide Icons used in Findings, Methodology, and Contact sections -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
